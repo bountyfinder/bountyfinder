@@ -1,0 +1,211 @@
+html, body{
+    font-family: 'Raleway';
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+    height: 100%;
+    width: 100%;
+
+}
+nav{
+    transition: all ease 1s;
+    background-color:transparent;
+
+
+}
+.far , .fas{
+    color: white;
+    
+}
+.colored{
+    color:#64D3B2;
+}
+nav.shrink, .navbar.shrink{
+     background-color:white;
+     transition: all ease 1s;
+     padding: 7px;
+     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+
+}
+.navbar{
+    padding: 15px;
+}
+
+.hr-light{
+    border-top:1px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+    font-size: .9rem;
+}
+
+.navbar-light .navbar-nav .nav-link.colored-link{
+    color:#333;
+}
+
+.icon-bar{
+	background-color:black;
+}
+.nav > li > a{
+	color:white;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	text-decoration: none;
+	color:#333;
+	
+}
+
+.navbar-toggler{
+	background-color:white;
+}
+
+.navbar-collapse.collapse.in {
+    border-color: rgba(255, 255, 255, 0.98);
+
+	background-color: #64D3B2;
+
+}
+
+.navbar-collapse.collapse.show{
+        height: 100vh;
+}
+
+
+
+#get-started-button{
+    background-image: linear-gradient(-80deg,#0be49b,#14cbd9);
+    border: 2px solid #ffffff;
+    font-size: .9rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+#learn-more-button{
+    border: 2px solid #ffffff;
+    font-size: .9rem;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.description{
+    color:white;
+}
+/*SECTION FEATURED AIRDROP*/
+.featured-airdrops{
+color:#333;
+text-align:center;
+background-color: rgb(247, 247, 249);
+
+}
+
+
+
+/*TABLE AIRDROP*/
+.table thead{
+    color:rgb('89, 88, 88');
+}
+.body-row{
+    background-color: #f9fafc;
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+tr:hover{
+    box-shadow: 0;
+
+}
+
+th .media img{
+margin:10px;
+height:60px;
+width:60px;
+
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+}
+
+
+td.data-token-distribution{
+ 
+
+}
+
+th.token-project-row{
+    width:450px;
+    padding: 10px 50px;
+    color:#57fcc5;
+}
+
+
+p.title-token-project{
+    padding-bottom: 10px;
+}
+
+span.token-title{
+   margin-left:200px;
+}
+
+.description-token-project-hide{
+    margin-top: 5px;
+    display:none;
+    color:#333;
+    font-size:.5rem;
+    font-weight:normal;
+}
+/*END TABLE AIRDROP*/
+
+
+@media only screen 
+  and (max-width: 720px){
+        nav{
+        }
+        span.description-token-project , .converted-philippine-peso, .converted-ph-peso, .token-distribution, .data-token-distribution{
+            display: none;
+        }
+        
+
+        span.token-title,.token-distribution , .converted-philippine-peso, .token-category, .token-time-left{
+            margin:0 auto;
+            font-size: .9rem;
+         }
+  
+
+        th .media img{
+            height:60px;
+            width:60px;
+            margin: 5px;
+ 
+            }
+
+            th.token-project-row{
+                width:100%;
+                padding: 10px;
+                color:#57fcc5;
+            }
+
+            .body-row{
+                background-color: #f9fafc;
+                cursor: pointer;
+                color: rgb(104, 104, 104);
+            
+                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+            
+            }
+
+            .description-token-project-hide{
+                display:inline-block;
+            }
+
+
+	}
+
+
+}
