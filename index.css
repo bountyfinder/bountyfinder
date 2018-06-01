@@ -164,7 +164,7 @@ span.token-title{
 
 
 @media only screen 
-  and (max-width: 720px){
+  and (max-width: 1020px){
 	.navbar-brand img{
 		height:40px;
 		width:150px;
