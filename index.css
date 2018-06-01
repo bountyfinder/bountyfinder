@@ -67,7 +67,7 @@ nav.shrink, .navbar.shrink{
 
 }
 
-.navbar-collapse.collapse.show, .navbar-collapse.collapse{
+.navbar-collapse.collapse.show{
         height: 100vh;
 }
 
@@ -161,15 +161,8 @@ span.token-title{
     font-weight:normal;
 }
 /*END TABLE AIRDROP*/
-
-
-@media only screen 
-  and (max-width: 1020px){
-	.navbar-brand img{
-		height:40px;
-		width:150px;
-		 
-	}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
 	  .nav-item{
             text-align: center;
 
@@ -182,6 +175,59 @@ span.token-title{
             font-weight: 700;
             padding: 30px;
         }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	  .nav-item{
+            text-align: center;
+
+        }
+
+        .nav-link{
+            font-size: 25px;
+            text-transform: uppercase;
+            font-style: bold;
+            font-weight: 700;
+            padding: 30px;
+        }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+	  .nav-item{
+            text-align: center;
+
+        }
+
+        .nav-link{
+            font-size: 25px;
+            text-transform: uppercase;
+            font-style: bold;
+            font-weight: 700;
+            padding: 30px;
+        }
+  
+}
+
+@media only screen 
+  and (max-width: 1020px){
+	.navbar-brand img{
+		height:50px;
+		width:200px;
+		 
+
         nav{
         }
         span.description-token-project , .converted-philippine-peso, .converted-ph-peso, .token-distribution, .data-token-distribution{
