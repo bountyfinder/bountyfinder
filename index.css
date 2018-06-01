@@ -176,7 +176,11 @@ span.token-title{
         }
 
         .nav-link{
-            padding: 10px;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-style: bold;
+            font-weight: 700;
+            padding: 30px;
         }
         nav{
         }
