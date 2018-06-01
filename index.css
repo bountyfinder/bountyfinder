@@ -69,6 +69,7 @@ nav.shrink, .navbar.shrink{
 
 .navbar-collapse.collapse.show{
         height: 100vh;
+	     transition: all ease 1s;
 }
 
 
