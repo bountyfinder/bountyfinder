@@ -170,6 +170,14 @@ span.token-title{
 		width:150px;
 		 
 	}
+	  .nav-item{
+            text-align: center;
+
+        }
+
+        .nav-link{
+            padding: 10px;
+        }
         nav{
         }
         span.description-token-project , .converted-philippine-peso, .converted-ph-peso, .token-distribution, .data-token-distribution{
